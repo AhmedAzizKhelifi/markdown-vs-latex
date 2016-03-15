@@ -226,5 +226,5 @@ Wednesday | 10C      | 21C
 
 - [LaTeX Project](https://www.latex-project.org)
 - [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)
-- [TeX - LaTeX Stack Exchange][http://tex.stackexchange.com]
+- [TeX - LaTeX Stack Exchange](http://tex.stackexchange.com)
 
