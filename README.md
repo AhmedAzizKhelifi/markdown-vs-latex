@@ -124,7 +124,7 @@ One   or more   blank lines denote the  end
 of  a paragraph.  
 ```
 
-Note: The same in LaTex and Markdown.
+Note: The same in LaTeX and Markdown.
 However, indentation by four or more spaces starts a code block/verbatim text block
 in Markdown.
 
@@ -151,7 +151,7 @@ vs
 ····including all  s p a c e s!
 ```
 
-Note: `····` used for showing (invisible) leading four spaces.
+Note: Dots (`····`) used for showing (invisible) leading four spaces.
 
 </>
 
@@ -178,7 +178,7 @@ United Kingdom,··
 LS2 1HE
 ```
 
-Note: `··` used for showing (invisible) trailing two spaces.
+Note: Dots (`··`) used for showing (invisible) trailing two spaces.
 
 or
 
