@@ -8,20 +8,20 @@ title: How to Structure a LaTeX Document
 author:
   name: Andrew Roberts
   address: School of Computing,\
- 		   University of Leeds,\
-		   Leeds,\
-		   United Kingdom,\
-		   LS2 1HE
+           University of Leeds,\
+           Leeds,\
+           United Kingdom,\
+           LS2 1HE
   email: andyr@comp.leeds.ac.uk  
 date:   June 2003
 
-abstract: |
-In this article, I shall discuss some of the fundamental topics in
-producing a structured document.  This document itself does not go into
-much depth, but is instead the output of an example of how to implement
-structure. Its LaTeX source, when in used with my tutorial
-(http://www.comp.leeds.ac.uk/andyr/misc/latex/\-latextutorial2.html)
-provides all the relevant information.
+abstract: >
+  In this article, I shall discuss some of the fundamental topics in
+  producing a structured document.  This document itself does not go into
+  much depth, but is instead the output of an example of how to implement
+  structure. Its LaTeX source, when in used with my tutorial
+  (http://www.comp.leeds.ac.uk/andyr/misc/latex/\-latextutorial2.html)
+  provides all the relevant information.
 
 ---
 
@@ -81,22 +81,22 @@ The commands for inserting sections are fairly intuitive.  Of course,
 certain commands are appropriate to different document classes.
 For example, a book has chapters but a article doesn't.
 
-| Command                        | Level |
-| ------------------------------ | ----- |
-| `\part{part}`                  |  -1   |
-| `\chapter{chapter}`            |   0   |
-| `\section{section}`            |   1   |
-| `\subsection{subsection}       |   2   |
-| `\subsubsection{subsubsection} |   3   |
-| `\paragraph{paragraph}         |   4   |
-| `\subparagraph{subparagraph}   |   5   |
+| Command                         | Level |
+| ------------------------------- | ----- |
+| `\part{part}`                   |  -1   |
+| `\chapter{chapter}`             |   0   |
+| `\section{section}`             |   1   |
+| `\subsection{subsection}`       |   2   |
+| `\subsubsection{subsubsection}` |   3   |
+| `\paragraph{paragraph}`         |   4   |
+| `\subparagraph{subparagraph}`   |   5   |
 
 
 Numbering of the sections is performed automatically by LaTeX, so don't
 bother adding them explicitly, just insert the heading you want between
-the curly braces.  If you don't want sections number, then add an asterisk (*) after the
+the curly braces.  If you don't want sections number, then add an asterisk (\*) after the
 section command, but before the first curly brace, e.g.,
-`\section*\{A Title Without Numbers}`.
+`\section*{A Title Without Numbers}`.
 
 
 <!-- 
