@@ -22,6 +22,10 @@ Hello world!
 
 </>
 
+Note: In LaTeX "standard" title infos include: title, author, date
+(and thanks).
+
+
 ```latex
 \documentclass{article}
 \title{How to Structure a LaTeX Document}
@@ -32,9 +36,6 @@ Hello world!
    Hello world!
 \end{document}
 ```
-
-Note: "Standard" title infos in LaTeX include: title, author, date
-(and thanks).
 
 vs
 
@@ -54,6 +55,22 @@ Hello world!
 
 ## Book
 
+Note: In LaTeX "standard" sections include:
+
+Level | Section       | Used by
+----- | ------------- | ---------- 
+(-1)  | part          | book, (report?)
+0     | chapter       | book
+1     | section       | book, article, report
+2     | subsection    | book, article, report
+3     | subsubsection | book, article, report
+4     | paragraph     | book, article, report
+5     | subparagraph  | book, article, report
+
+Sections in letters include: address, opening, closing, signature, etc.;
+in presentations (e.g. beamer) include: frame, etc.; in posters include: ??
+
+
 ```latex
 \documentclass{book}
 \begin{document}
@@ -71,22 +88,6 @@ This subsection's content...
 This subsubsection's content...
 \end{document}
 ```
-
-Note: "Standard" Sections in LaTeX include:
-
-Level | Section       | Used by
------ | ------------- | ---------- 
-(-1)  | part          | book, (report?)
-0     | chapter       | book
-1     | section       | book, article, report
-2     | subsection    | book, article, report
-3     | subsubsection | book, article, report
-4     | paragraph     | book, article, report
-5     | subparagraph  | book, article, report
-
-Sections in letters include: address, opening, closing, signature, etc.;
-in presentations (e.g. beamer) include: frame, etc.; in posters include: ??
-
 
 vs
 
@@ -124,7 +125,8 @@ of  a paragraph.
 ```
 
 Note: The same in LaTex and Markdown.
-Note, however, indentation by four or more spaces in Markdown starts a code block/verbatim text block.
+However, indentation by four or more spaces starts a code block/verbatim text block
+in Markdown.
 
 </>
 
@@ -194,19 +196,18 @@ LS2 1HE
 
 ## (Inline) Text Formatting (Bold & Italics)
 
+Note: In LaTeX text formatting styles include:
+
+Macro             | Environment      | Comments
+----------------- | ---------------- | -------------
+`\textbf{text}`   | `\bfseries`      | Bold
+`\textit{text}`   | `\itshape`       | Italic
+`\texttt{text}`   | `\ttfamily`      | Monospaced
+
 
 ```latex
 A \textbf{bold \textit{Hello LaTeX}} to start!
 ```
-
-Note: LaTex text styles include:
-
-Macro           | Environment    | Comments
---------------- | -------------- | -------------
-\textbf{text}   | \bfseries      | Bold
-\textit{text}   | \itshape       | Italic
-\texttt{text}   | \ttfamily      | Monospaced
-
 
 vs
 
