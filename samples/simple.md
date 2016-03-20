@@ -118,3 +118,14 @@ section command, but before the first curly brace, e.g.,
 
 \end{thebibliography} %Must end the environment
 -->
+
+
+## LaTeX to Markdown Conversion Notes
+
+In Markdown italics in inline code blocks not supported/possible e.g. `\texttt{\textbackslash title\{\emph{title}\}}` => converted without any emphasis in italics
+
+Used Pandoc Markdown syntax for citations e.g. `\cite{lamport94}` => `[@lamport94]` 
+
+Note: BibTeX bibliography for now NOT converted. See [Bib.TXT](https://github.com/bibtxt) for an option.
+
+In Markdown literal asterix in "`...add an asterisk (*)...`" requires a backslash escape e.g. => \\*
