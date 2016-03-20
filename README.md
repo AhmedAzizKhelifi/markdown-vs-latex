@@ -3,11 +3,14 @@
 _Markdown vs Markup_
 
 ---
+
 Note:  Why? LaTeX / TeX markup works great for producing high-quality typesetting for articles, research papers, manuals, books, etc.
-Markdown works great for writing (distraction-free, focus on what you want to say, etc.)
+Markdown works great for distraction-free focus-on-what-you-want-to-say writing.
 
 Using tools such as [pandoc](http://pandoc.org) or [kramdown](http://kramdown.gettalong.org/converter/latex.html) you can (auto-)convert plain text in markdown to LaTeX for further processing. Get the best of both worlds! We ♥ Markdown & LaTeX.
+
 ---
+
 
 ## Article
 
