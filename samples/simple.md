@@ -120,11 +120,13 @@ section command, but before the first curly brace, e.g.,
 -->
 
 
+* * *
+
 ## LaTeX to Markdown Conversion Notes
 
 In Markdown italics in inline code blocks not supported/possible e.g. `\texttt{\textbackslash title\{\emph{title}\}}` => converted without any emphasis in italics
 
-Used Pandoc Markdown syntax for citations e.g. `\cite{lamport94}` => `[@lamport94]` 
+Used Pandoc Markdown syntax for citations e.g. `\cite{lamport94}` => `[@lamport94]` (not supported by GitHub-flavored markdown)
 
 Note: BibTeX bibliography for now NOT converted. See [Bib.TXT](https://github.com/bibtxt) for an option.
 
