@@ -201,9 +201,9 @@ vs
 ```latex
 \begin{tabular}{ l l l }
   Day & Min Temp & Max Temp \\
-  Monday & 11C & 22C \\
-  Tuesday & 9C & 19C \\
-  Wednesday & 10C & 21C \\
+  Monday & 11° C & 22° C \\
+  Tuesday & 9° C & 19° C \\
+  Wednesday & 10° C & 21° C \\
 \end{tabular}
 ```
 
@@ -212,19 +212,11 @@ vs
 ```
 Day       | Min Temp | Max Temp
 --------- | -------- | --------
-Monday    | 11C      | 22C
-Tuesday   |  9C      | 19C
-Wednesday | 10C      | 21C
+Monday    |  11° C   |  22° C
+Tuesday   |   9° C   |  19° C
+Wednesday |  10° C   |  21° C
 ```
 
 </>
 
-
-
-
-## LaTeX / TeX Links
-
-- [LaTeX Project](https://www.latex-project.org)
-- [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)
-- [TeX - LaTeX Stack Exchange](http://tex.stackexchange.com)
 
