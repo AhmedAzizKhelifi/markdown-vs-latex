@@ -91,22 +91,25 @@ This subsubsection's content...
 </>
 
 
-## Inline Text Formatting
-
-```latex
-A \textbf{bold \textit{Hello LaTeX}} to start!
-```
-
-vs
+## Paragraphs and White Space
 
 ```
-A **bold _Hello LaTeX_** to start!
+The ends  of words and sentences are marked 
+  by   spaces. It  doesn't matter how many 
+spaces    you type; one is as good as 100.  The
+end of   a line counts as a space.
+
+One   or more   blank lines denote the  end 
+of  a paragraph.  
 ```
+
+Note: The same in LaTex and Markdown.
+Note, however, identation by four or more spaces in Markdown starts a code block/verbatim block.
 
 </>
 
 
-## Verbatim Text
+## Verbatim Text / Code Blocks
 
 ```latex
 \begin{verbatim}
@@ -126,16 +129,72 @@ vs
 ····including all  s p a c e s!
 ```
 
+Note: `····` used for (invisible) leading four spaces.
+
 </>
 
 
-## Bullet List
+## (Hard) Line Breaks
+
+```latex
+Andrew Roberts\\
+School of Computing,\\
+University of Leeds,\\
+Leeds,\\
+United Kingdom,\\
+LS2 1HE
+```
+
+vs
+
+```
+Andrew Roberts··
+School of Computing,··
+University of Leeds,··
+Leeds,··
+United Kingdom,··
+LS2 1HE
+```
+
+Note: `··` used for (invisible) trailing two spaces.
+
+or
+
+```
+Andrew Roberts       \
+School of Computing, \
+University of Leeds, \
+Leeds,               \
+United Kingdom,      \
+LS2 1HE
+```
+
+</>
+
+
+## (Inline) Text Formatting (Bold & Italics)
+
+
+```latex
+A \textbf{bold \textit{Hello LaTeX}} to start!
+```
+
+vs
+
+```
+A **bold _Hello LaTeX_** to start!
+```
+
+</>
+
+
+## Bulleted List
 
 ```latex
 \begin{itemize}  
-\item The first item
-\item The second item
-\item The third etc.
+  \item The first item
+  \item The second item
+  \item The third etc.
 \end{list_type}
 ```
 
@@ -154,9 +213,9 @@ vs
 
 ```latex
 \begin{enumerate}  
-\item The first item
-\item The second item
-\item The third etc.
+  \item The first item
+  \item The second item
+  \item The third etc.
 \end{list_type}
 ```
 
@@ -172,13 +231,13 @@ vs
 
 ```latex
 \begin{enumerate}  
-\item The first item
-\begin{enumerate}
-\item Nested item 1
-\item Nested item 2
-\end{enumerate}
-\item The second item
-\item The third etc.
+  \item The first item
+  \begin{enumerate}
+    \item Nested item 1
+    \item Nested item 2
+  \end{enumerate}
+  \item The second item
+  \item The third etc.
 \end{list_type}
 ```
 
@@ -200,10 +259,10 @@ vs
 
 ```latex
 \begin{tabular}{ l l l }
-  Day & Min Temp & Max Temp \\
-  Monday & 11° C & 22° C \\
-  Tuesday & 9° C & 19° C \\
-  Wednesday & 10° C & 21° C \\
+  Day       & Min Temp & Max Temp \\
+  Monday    &    11° C &  22° C \\
+  Tuesday   &     9° C &  19° C \\
+  Wednesday &    10° C &  21° C \\
 \end{tabular}
 ```
 
@@ -219,23 +278,6 @@ Wednesday |  10° C   |  21° C
 
 </>
 
-
-## Paragraphs and White Space
-
-```
-The ends  of words and sentences are marked 
-  by   spaces. It  doesn't matter how many 
-spaces    you type; one is as good as 100.  The
-end of   a line counts as a space.
-
-One   or more   blank lines denote the  end 
-of  a paragraph.  
-```
-
-Note: The same in LaTex and Markdown.
-Note, however, identation by four or more spaces in Markdown starts a code block/verbatim block.
-
-</>
 
 
 ## Quotes & Dashes
