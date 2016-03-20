@@ -33,7 +33,11 @@ Hello world!
 \end{document}
 ```
 
+Note: "Standard" title infos in LaTeX include: title, author, date
+(and thanks).
+
 vs
+
 
 ```
 ---
@@ -67,6 +71,22 @@ This subsection's content...
 This subsubsection's content...
 \end{document}
 ```
+
+Note: "Standard" Sections in LaTeX include:
+
+Level | Section       | Used by
+----- | ------------- | ---------- 
+(-1)  | part          | book, (report?)
+0     | chapter       | book
+1     | section       | book, article, report
+2     | subsection    | book, article, report
+3     | subsubsection | book, article, report
+4     | paragraph     | book, article, report
+5     | subparagraph  | book, article, report
+
+Sections in letters include: address, opening, closing, signature, etc.;
+in presentations (e.g. beamer) include: frame, etc.; in posters include: ??
+
 
 vs
 
@@ -104,7 +124,7 @@ of  a paragraph.
 ```
 
 Note: The same in LaTex and Markdown.
-Note, however, identation by four or more spaces in Markdown starts a code block/verbatim block.
+Note, however, indentation by four or more spaces in Markdown starts a code block/verbatim text block.
 
 </>
 
@@ -129,7 +149,7 @@ vs
 ····including all  s p a c e s!
 ```
 
-Note: `····` used for (invisible) leading four spaces.
+Note: `····` used for showing (invisible) leading four spaces.
 
 </>
 
@@ -156,7 +176,7 @@ United Kingdom,··
 LS2 1HE
 ```
 
-Note: `··` used for (invisible) trailing two spaces.
+Note: `··` used for showing (invisible) trailing two spaces.
 
 or
 
@@ -178,6 +198,15 @@ LS2 1HE
 ```latex
 A \textbf{bold \textit{Hello LaTeX}} to start!
 ```
+
+Note: LaTex text styles include:
+
+Macro           | Environment    | Comments
+--------------- | -------------- | -------------
+\textbf{text}   | \bfseries      | Bold
+\textit{text}   | \itshape       | Italic
+\texttt{text}   | \ttfamily      | Monospaced
+
 
 vs
 
@@ -204,6 +233,14 @@ vs
 * The first item
 * The second item
 * The third etc.
+```
+
+or
+
+```
+- The first item
+- The second item
+- The third etc.
 ```
 
 </>
