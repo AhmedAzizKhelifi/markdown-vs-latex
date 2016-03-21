@@ -206,11 +206,11 @@ LS2 1HE
 
 Note: In LaTeX text formatting styles include:
 
-Macro             | Environment      | Comments
------------------ | ---------------- | -------------
-`\textbf{text}`   | `\bfseries`      | Bold
-`\textit{text}`   | `\itshape`       | Italic
-`\texttt{text}`   | `\ttfamily`      | Monospaced
+Macro                              | Environment      | Comments
+---------------------------------- | ---------------- | -------------
+`\textbf{text}`                    | `\bfseries`      | Bold
+`\textit{text}` or `\emph{text}`   | `\itshape`       | Italic
+`\texttt{text}`                    | `\ttfamily`      | Monospaced
 
 
 ```latex
@@ -233,7 +233,7 @@ A **bold _Hello LaTeX_** to start!
   \item The first item
   \item The second item
   \item The third etc.
-\end{list_type}
+\end{itemize}
 ```
 
 vs
@@ -262,7 +262,7 @@ or
   \item The first item
   \item The second item
   \item The third etc.
-\end{list_type}
+\end{enumerate}
 ```
 
 vs
@@ -284,7 +284,7 @@ vs
   \end{enumerate}
   \item The second item
   \item The third etc.
-\end{list_type}
+\end{enumerate}
 ```
 
 vs
